@@ -18,5 +18,6 @@
 
 这是能够通过UDP协议传递视频流和异常信号至上位机自制软件，软件定时3s检测是否有异常出现，当有异常
 （动态目标时）会使用YOLOv8模型检测，如下：
-![image](https://github.com/user-attachments/assets/a202fbf1-e771-4e48-af04-6a888de33aa8)
+![b82548814971dcced507cb19dc120c5](https://github.com/user-attachments/assets/8b948567-3e07-470c-b766-e173d819f013)
+
 
