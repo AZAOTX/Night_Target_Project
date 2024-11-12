@@ -10,9 +10,12 @@
 加速实时直方图均衡算法提高对比度，帧差法检测运动目标，再经YOLO模型推理实现
 在夜间动态目标识别。
 效果：
+
 ![image](https://github.com/user-attachments/assets/6876b03b-d8e5-4992-82ef-f59e28623be0)
+
 通过PL端按键控制切换是否显示直方图均衡处理结果
 ![image](https://github.com/user-attachments/assets/1152834e-87f1-4d2e-a7df-6747a8e71dc7)
+
 这是能够通过UDP协议传递视频流和异常信号至上位机自制软件，软件定时3s检测是否有异常出现，当有异常
 （动态目标时）会使用YOLOv8模型检测，如下：
 ![image](https://github.com/user-attachments/assets/a202fbf1-e771-4e48-af04-6a888de33aa8)
