@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../OV5640_TFT.srcs/sources_1/bd/OV5640_TFT/ipshared/ec67/hdl" --include "../../../../OV5640_TFT.srcs/sources_1/bd/OV5640_TFT/ipshared/70cf/hdl" --include "../../../../OV5640_TFT.srcs/sources_1/bd/OV5640_TFT/ipshared/58e2/hdl" --include "../../../../OV5640_TFT.srcs/sources_1/bd/OV5640_TFT/ipshared/979d/hdl/verilog" --include "../../../../OV5640_TFT.srcs/sources_1/bd/OV5640_TFT/ipshared/b2d0/hdl/verilog" --include "../../../../OV5640_TFT.srcs/sources_1/bd/OV5640_TFT/ipshared/85a3" --include "../../../../OV5640_TFT.srcs/sources_1/bd/OV5640_TFT/ipshared/8713/hdl" --include "D:/Vivado2018/Vivado/2018.3/data/xilinx_vip/include" \
+"../../../../OV5640_TFT.srcs/sources_1/ip/hist_equ_fifo/sim/hist_equ_fifo.v" \
+"../../../../OV5640_TFT.srcs/sources_1/ip/hist_equ_remap_bram/sim/hist_equ_remap_bram.v" \
+"../../../../OV5640_TFT.srcs/sources_1/ip/hist_static_bram/sim/hist_static_bram.v" \
+"../../../../OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_cumulate.v" \
+"../../../../OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_fifo2st.v" \
+"../../../../OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_mult.v" \
+"../../../../OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_ram_bus_arbit.v" \
+"../../../../OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_shift_regs.v" \
+"../../../../OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_st_ctr.v" \
+"../../../../OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_static.v" \
+"../../../../OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_top.v" \
+"../../../../OV5640_TFT.srcs/sim_1/new/tb_hist_equ.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

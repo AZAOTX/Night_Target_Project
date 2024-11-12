@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_hist_equ_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_hist_equ" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7679904303797fs"></ZoomStartTime>
+      <ZoomEndTime time="7680109139241fs"></ZoomEndTime>
+      <Cursor1Time time="7680045000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="254"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wave_markers>
+      <marker time="4228630941000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_hist_equ/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/proc_en" type="logic">
+      <obj_property name="ElementShortName">proc_en</obj_property>
+      <obj_property name="ObjectShortName">proc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/sink_sop" type="logic">
+      <obj_property name="ElementShortName">sink_sop</obj_property>
+      <obj_property name="ObjectShortName">sink_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/sink_valid" type="logic">
+      <obj_property name="ElementShortName">sink_valid</obj_property>
+      <obj_property name="ObjectShortName">sink_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/sink_data" type="array">
+      <obj_property name="ElementShortName">sink_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sink_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/sink_eop" type="logic">
+      <obj_property name="ElementShortName">sink_eop</obj_property>
+      <obj_property name="ObjectShortName">sink_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/sink_ready" type="logic">
+      <obj_property name="ElementShortName">sink_ready</obj_property>
+      <obj_property name="ObjectShortName">sink_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/source_sop" type="logic">
+      <obj_property name="ElementShortName">source_sop</obj_property>
+      <obj_property name="ObjectShortName">source_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/source_valid" type="logic">
+      <obj_property name="ElementShortName">source_valid</obj_property>
+      <obj_property name="ObjectShortName">source_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/source_data" type="array">
+      <obj_property name="ElementShortName">source_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">source_data[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/source_eop" type="logic">
+      <obj_property name="ElementShortName">source_eop</obj_property>
+      <obj_property name="ObjectShortName">source_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/source_ready" type="logic">
+      <obj_property name="ElementShortName">source_ready</obj_property>
+      <obj_property name="ObjectShortName">source_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/HEIGHT" type="array">
+      <obj_property name="ElementShortName">HEIGHT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HEIGHT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/static_bram/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/static_bram/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/static_bram/addra" type="array">
+      <obj_property name="ElementShortName">addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/static_bram/dina" type="array">
+      <obj_property name="ElementShortName">dina[18:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[18:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/static_bram/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/static_bram/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/static_bram/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/static_bram/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[18:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[18:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_equ_fifo2st_0/DWIDTH" type="array">
+      <obj_property name="ElementShortName">DWIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DWIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_equ_fifo2st_0/TOTAL_PIXELS" type="array">
+      <obj_property name="ElementShortName">TOTAL_PIXELS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TOTAL_PIXELS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_remap/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_remap/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_remap/addra" type="array">
+      <obj_property name="ElementShortName">addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_remap/dina" type="array">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_remap/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_remap/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_remap/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hist_equ/uut/u_hist_remap/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+   </wvobject>
+</wave_config>

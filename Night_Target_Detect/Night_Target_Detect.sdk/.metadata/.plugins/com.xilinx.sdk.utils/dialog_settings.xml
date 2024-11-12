@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="D:\VivadoProject\OV5640_TFT_Back\OV5640_TFT\OV5640_TFT.sdk\OV5640_TFT_wrapper_hw_platform_0" key="bootgen_files_selection"/>
+	<item value="D:\VivadoProject\OV5640_TFT_Back\OV5640_TFT\OV5640_TFT.sdk\fsbl2\Debug" key="zynq_flash_files_selection"/>
+	<item value="D:\VivadoProject\OV5640_TFT_Back\OV5640_TFT\OV5640_TFT.sdk\OV5640_TFT_wrapper_hw_platform_0" key="last_stored_selection"/>
+</section>

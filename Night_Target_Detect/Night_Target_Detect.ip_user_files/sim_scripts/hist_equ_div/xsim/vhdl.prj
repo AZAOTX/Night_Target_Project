@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../OV5640_TFT.srcs/sources_1/ip/hist_equ_div/sim/hist_equ_div.vhd" \
+
+nosort

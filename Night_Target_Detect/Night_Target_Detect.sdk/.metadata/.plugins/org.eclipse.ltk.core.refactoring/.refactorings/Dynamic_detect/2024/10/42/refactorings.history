@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Dynamic_detect/src/dynamic_detect&apos; to &apos;dynamic_detect.c&apos;" description="Rename resource &apos;dynamic_detect&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/dynamic_detect" name="dynamic_detect.c" stamp="1728982270652" updateReferences="true"/>
+</session>

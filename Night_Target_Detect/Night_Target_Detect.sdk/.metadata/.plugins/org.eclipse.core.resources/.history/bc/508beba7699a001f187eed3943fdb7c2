@@ -1,0 +1,37 @@
+/**
+  *****************************************************************************
+  * 					存放用户中断处理函数，方便统一处理
+  *****************************************************************************
+  *
+  * @File   : ISR.c
+  * @By     : Sun
+  * @Version: V0.5
+  * @Date   : 2022 / 06 / 01
+  * @Shop	: https://xiaomeige.taobao.com/
+  *
+  *****************************************************************************
+**/
+
+#include "ISR.h"
+#include "sd_write.h"
+#include "COMMON.h"
+/**
+  *****************************************************
+  * @brief	私有定时器中断处理程序
+  * @tag	本函数用来处理私有定时器中断，在内部加入用户程序即可
+  *****************************************************
+**/
+uint8_t light=0;
+
+void ScuTimer_IRQ_Handler(void *CallBackRef)
+{
+	/* ↓↓↓用户处理↓↓↓ */
+	PS_GPIO_SetPort(7, light);
+
+	bram_data = Xil_In32(BRAM_ADDR);
+	xil_printf("bramdata:%d\n",bram_data);
+	sd_write();
+	light = !light;
+	/* ↑↑↑结束处理↑↑↑ */
+    XScuTimer_ClearInterruptStatus(&ScuTimer);
+}

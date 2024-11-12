@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\VivadoProject\OV5640_TFT_Back\OV5640_TFT\OV5640_TFT.sdk\fsbl2\Debug\fsbl2.elf
+	D:\VivadoProject\OV5640_TFT_Back\OV5640_TFT\OV5640_TFT.sdk\OV5640_TFT_wrapper_hw_platform_0\OV5640_TFT_wrapper.bit
+	D:\VivadoProject\OV5640_TFT_Back\OV5640_TFT\OV5640_TFT.sdk\night_target_detect\Debug\night_target_detect.elf
+}

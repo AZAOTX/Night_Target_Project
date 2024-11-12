@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov  4 12:30:47 2024
+# Process ID: 6104
+# Current directory: D:/VivadoProject/OV5640_TFT/OV5640_TFT.runs/OV5640_TFT_v_axi4s_vid_out_0_0_synth_1
+# Command line: vivado.exe -log OV5640_TFT_v_axi4s_vid_out_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OV5640_TFT_v_axi4s_vid_out_0_0.tcl
+# Log file: D:/VivadoProject/OV5640_TFT/OV5640_TFT.runs/OV5640_TFT_v_axi4s_vid_out_0_0_synth_1/OV5640_TFT_v_axi4s_vid_out_0_0.vds
+# Journal file: D:/VivadoProject/OV5640_TFT/OV5640_TFT.runs/OV5640_TFT_v_axi4s_vid_out_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source OV5640_TFT_v_axi4s_vid_out_0_0.tcl -notrace

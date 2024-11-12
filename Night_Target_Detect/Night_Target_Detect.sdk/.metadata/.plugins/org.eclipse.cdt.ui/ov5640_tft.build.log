@@ -1,0 +1,83 @@
+16:43:46 **** Auto Build of configuration Release for project ov5640_tft ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/COMMON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+Finished building: ../src/COMMON.c
+ 
+Building file: ../src/ISR.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"src/ISR.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/ISR.d" -MT"src/ISR.o" -o "src/ISR.o" "../src/ISR.c"
+Finished building: ../src/ISR.c
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../INC/SCU/SCU_GIC.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"INC/SCU/SCU_GIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"INC/SCU/SCU_GIC.d" -MT"INC/SCU/SCU_GIC.o" -o "INC/SCU/SCU_GIC.o" "../INC/SCU/SCU_GIC.c"
+Finished building: ../INC/SCU/SCU_GIC.c
+ 
+Building file: ../INC/SCU/SCU_TIMER.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"INC/SCU/SCU_TIMER.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"INC/SCU/SCU_TIMER.d" -MT"INC/SCU/SCU_TIMER.o" -o "INC/SCU/SCU_TIMER.o" "../INC/SCU/SCU_TIMER.c"
+Finished building: ../INC/SCU/SCU_TIMER.c
+ 
+Building file: ../INC/PS_IIC/PS_IIC.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"INC/PS_IIC/PS_IIC.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"INC/PS_IIC/PS_IIC.d" -MT"INC/PS_IIC/PS_IIC.o" -o "INC/PS_IIC/PS_IIC.o" "../INC/PS_IIC/PS_IIC.c"
+Finished building: ../INC/PS_IIC/PS_IIC.c
+ 
+Building file: ../INC/OV5640/OV5640.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"INC/OV5640/OV5640.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"INC/OV5640/OV5640.d" -MT"INC/OV5640/OV5640.o" -o "INC/OV5640/OV5640.o" "../INC/OV5640/OV5640.c"
+Finished building: ../INC/OV5640/OV5640.c
+ 
+Building file: ../INC/LCD/PageDesign.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"INC/LCD/PageDesign.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"INC/LCD/PageDesign.d" -MT"INC/LCD/PageDesign.o" -o "INC/LCD/PageDesign.o" "../INC/LCD/PageDesign.c"
+Finished building: ../INC/LCD/PageDesign.c
+ 
+Building file: ../INC/LCD/display_ctrl.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"INC/LCD/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"INC/LCD/display_ctrl.d" -MT"INC/LCD/display_ctrl.o" -o "INC/LCD/display_ctrl.o" "../INC/LCD/display_ctrl.c"
+Finished building: ../INC/LCD/display_ctrl.c
+ 
+Building file: ../INC/LCD/dynclk.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"INC/LCD/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"INC/LCD/dynclk.d" -MT"INC/LCD/dynclk.o" -o "INC/LCD/dynclk.o" "../INC/LCD/dynclk.c"
+Finished building: ../INC/LCD/dynclk.c
+ 
+Building file: ../INC/LCD/lcd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"INC/LCD/lcd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"INC/LCD/lcd.d" -MT"INC/LCD/lcd.o" -o "INC/LCD/lcd.o" "../INC/LCD/lcd.c"
+Finished building: ../INC/LCD/lcd.c
+ 
+Building file: ../INC/LCD/vdma_api.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O2 -I../../ov5640_tft_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\ov5640_tft\src" -c -fmessage-length=0 -MT"INC/LCD/vdma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"INC/LCD/vdma_api.d" -MT"INC/LCD/vdma_api.o" -o "INC/LCD/vdma_api.o" "../INC/LCD/vdma_api.c"
+Finished building: ../INC/LCD/vdma_api.c
+ 
+Building target: ov5640_tft.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_tft_bsp/ps7_cortexa9_0/lib -o "ov5640_tft.elf"  ./src/COMMON.o ./src/ISR.o ./src/helloworld.o ./src/platform.o  ./INC/SCU/SCU_GIC.o ./INC/SCU/SCU_TIMER.o  ./INC/PS_IIC/PS_IIC.o  ./INC/OV5640/OV5640.o  ./INC/LCD/PageDesign.o ./INC/LCD/display_ctrl.o ./INC/LCD/dynclk.o ./INC/LCD/lcd.o ./INC/LCD/vdma_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: ov5640_tft.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size ov5640_tft.elf  |tee "ov5640_tft.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 133080	   3648	  29328	 166056	  288a8	ov5640_tft.elf
+Finished building: ov5640_tft.elf.size
+ 
+
+16:44:21 Build Finished (took 35s.137ms)
+

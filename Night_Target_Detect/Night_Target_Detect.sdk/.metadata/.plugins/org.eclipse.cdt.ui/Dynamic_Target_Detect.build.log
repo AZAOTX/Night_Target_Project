@@ -1,0 +1,16 @@
+15:03:04 **** Incremental Build of configuration Debug for project Dynamic_Target_Detect ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/COMMON.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I../../Dynamic_Target_Detect_bsp/ps7_cortexa9_0/include -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\Dynamic_Target_Detect\src" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\Dynamic_Target_Detect\INC\LCD" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\Dynamic_Target_Detect\INC\OV5640" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\Dynamic_Target_Detect\INC\PCF8563" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\Dynamic_Target_Detect\INC\PS_IIC" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\Dynamic_Target_Detect\INC\SCU" -I"D:\VivadoProject\OV5640_TFT\OV5640_TFT.sdk\Dynamic_Target_Detect\INC\SII9022" -c -fmessage-length=0 -MT"src/COMMON.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/COMMON.d" -MT"src/COMMON.o" -o "src/COMMON.o" "../src/COMMON.c"
+In file included from ../src/COMMON.c:14:0:
+../src/COMMON.h:14:10: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/COMMON.o] Error 1
+
+15:03:06 Build Finished (took 2s.693ms)
+

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-2" LaunchTime="1731123892">
+  <File Type="ROUTE-PWR" Name="OV5640_TFT_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="OV5640_TFT_wrapper.tcl"/>
+  <File Type="BITSTR-BMM" Name="OV5640_TFT_wrapper_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="OV5640_TFT_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="OV5640_TFT_wrapper_reports.tcl"/>
+  <File Type="OPT-DCP" Name="OV5640_TFT_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="OV5640_TFT_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="OV5640_TFT_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="OV5640_TFT_wrapper_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="OV5640_TFT_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="OV5640_TFT_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="OV5640_TFT_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="OV5640_TFT_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="OV5640_TFT_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="OV5640_TFT_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="OV5640_TFT_wrapper.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="OV5640_TFT_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="OV5640_TFT_wrapper.bin"/>
+  <File Type="PHYSOPT-DCP" Name="OV5640_TFT_wrapper_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="OV5640_TFT_wrapper.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="OV5640_TFT_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="OV5640_TFT_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="OV5640_TFT_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="OV5640_TFT_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="OV5640_TFT_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="OV5640_TFT_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="OV5640_TFT_wrapper.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="OV5640_TFT_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="OV5640_TFT_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="OV5640_TFT_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="OV5640_TFT_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="OV5640_TFT_wrapper.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="OV5640_TFT_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="OV5640_TFT_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="OV5640_TFT_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="OV5640_TFT_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="OV5640_TFT_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="OV5640_TFT_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="OV5640_TFT_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="OV5640_TFT_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="OV5640_TFT_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="OV5640_TFT_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="OV5640_TFT_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="OV5640_TFT_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="OV5640_TFT_wrapper.bit"/>
+  <File Type="BITSTR-RBT" Name="OV5640_TFT_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="OV5640_TFT_wrapper.nky"/>
+  <File Type="BG-DRC" Name="OV5640_TFT_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="OV5640_TFT_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/hist_equ_fifo/hist_equ_fifo.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/ip/hist_equ_fifo/hist_equ_fifo.xci"/>
+        <Attr Name="ImportTime" Val="1730356011"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/hist_equ_remap_bram/hist_equ_remap_bram.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/ip/hist_equ_remap_bram/hist_equ_remap_bram.xci"/>
+        <Attr Name="ImportTime" Val="1729151239"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/hist_equ_div/hist_equ_div.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/ip/hist_equ_div/hist_equ_div.xci"/>
+        <Attr Name="ImportTime" Val="1729907998"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/multiplier/multiplier.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/ip/multiplier/multiplier.xci"/>
+        <Attr Name="ImportTime" Val="1729907935"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/hist_static_bram/hist_static_bram.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/ip/hist_static_bram/hist_static_bram.xci"/>
+        <Attr Name="ImportTime" Val="1729908214"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/video_fifo/video_fifo.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/ip/video_fifo/video_fifo.xci"/>
+        <Attr Name="ImportTime" Val="1728116726"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RGB888_YCbCr444.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/RGB888_YCbCr444.v"/>
+        <Attr Name="ImportTime" Val="1731149627"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hist_Equ_Process/hist_equ_cumulate.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_cumulate.v"/>
+        <Attr Name="ImportTime" Val="1731123752"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hist_Equ_Process/hist_equ_fifo2st.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_fifo2st.v"/>
+        <Attr Name="ImportTime" Val="1730357412"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hist_Equ_Process/hist_equ_mult.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_mult.v"/>
+        <Attr Name="ImportTime" Val="1730357461"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hist_Equ_Process/hist_equ_ram_bus_arbit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_ram_bus_arbit.v"/>
+        <Attr Name="ImportTime" Val="1730007950"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hist_Equ_Process/hist_equ_shift_regs.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_shift_regs.v"/>
+        <Attr Name="ImportTime" Val="1728907361"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hist_Equ_Process/hist_equ_st_ctr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_st_ctr.v"/>
+        <Attr Name="ImportTime" Val="1729766160"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hist_Equ_Process/hist_equ_static.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_static.v"/>
+        <Attr Name="ImportTime" Val="1731123681"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Hist_Equ_Process/hist_equ_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/Hist_Equ_Process/hist_equ_top.v"/>
+        <Attr Name="ImportTime" Val="1731149358"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/key_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/key_control.v"/>
+        <Attr Name="ImportTime" Val="1731149592"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AXI_Frame_Difference.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/AXI_Frame_Difference.v"/>
+        <Attr Name="ImportTime" Val="1731149572"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/new/bram.v"/>
+        <Attr Name="ImportTime" Val="1731149513"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/OV5640_TFT/OV5640_TFT.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/bd/OV5640_TFT/OV5640_TFT.bd"/>
+        <Attr Name="ImportTime" Val="1731123861"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/OV5640_TFT/hdl/OV5640_TFT_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/bd/OV5640_TFT/hdl/OV5640_TFT_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1731123867"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/VivadoProject/OV5640_TFT_Back/OV5640_TFT/OV5640_TFT.srcs/sources_1/ip/c_shift_ram_0/c_shift_ram_0.xci"/>
+        <Attr Name="ImportTime" Val="1728206412"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OV5640_TFT_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="D:/VivadoProject/Camera_Detect/Camera_Detect.srcs/constrs_1/new/system.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="D:/VivadoProject/Camera_Detect/Camera_Detect.srcs/constrs_1/new/system.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="OV5640_TFT_v_axi4s_vid_out_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OV5640_TFT_axi_vdma_1_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="OV5640_TFT_axi_dynclk_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OV5640_TFT_v_vid_in_axi4s_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OV5640_TFT_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OV5640_TFT_AXI_Frame_Difference_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OV5640_TFT_v_tc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="OV5640_TFT_bram_0_1"/>
+</GenRun>

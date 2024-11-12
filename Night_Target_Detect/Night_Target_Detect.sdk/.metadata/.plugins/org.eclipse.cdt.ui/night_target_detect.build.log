@@ -1,0 +1,8 @@
+16:00:50 **** Incremental Build of configuration Debug for project night_target_detect ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+
+16:00:52 Build Finished (took 1s.916ms)
+

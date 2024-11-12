@@ -1,0 +1,8 @@
+11:14:31 **** Incremental Build of configuration Debug for project target_detect ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+
+11:14:32 Build Finished (took 1s.615ms)
+
