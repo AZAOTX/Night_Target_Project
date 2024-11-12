@@ -18,7 +18,7 @@
 
 ![image](https://github.com/user-attachments/assets/6876b03b-d8e5-4992-82ef-f59e28623be0)
 
-通过PL端按键控制切换是否显示直方图均衡处理结果
+通过PL端按键控制切换是否显示直方图均衡处理结果，帧差法得出结果无异常时不会进行检测
 ![image](https://github.com/user-attachments/assets/1152834e-87f1-4d2e-a7df-6747a8e71dc7)
 
 这是能够通过UDP协议传递视频流和异常信号至上位机自制软件，软件定时3s检测是否有异常出现，当有异常
